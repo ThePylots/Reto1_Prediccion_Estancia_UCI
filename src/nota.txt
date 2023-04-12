@@ -1,0 +1,2 @@
+He puesto la FK de paciente como patientUnitStayID a pesar de que es
+patientUnitStayID porque no se une a ningun sitio.

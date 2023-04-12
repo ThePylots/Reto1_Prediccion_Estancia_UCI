@@ -1,0 +1,243 @@
+{
+  "admissiondrug": {
+    "pk": "admissiondrugid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "admissiondx": {
+    "pk": "admissiondxid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "allergy": {
+    "pk": "allergyid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "apacheapsvar": {
+    "pk": "apacheapsvarid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "apachepatientresult": {
+    "pk": "apachepatientsresultsid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "apachepredvar": {
+    "pk": "apachepredvarid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "careplancareprovider": {
+    "pk": "cplcareproviderid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "careplaneol": {
+    "pk": false,
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "careplangeneral": {
+    "pk": "cplgeneralid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "careplangoal": {
+    "pk": "cplgoalid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "careplaninfectiousdisease": {
+    "pk": "cplinfectid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "customlab": {
+    "pk": "customlabid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "diagnosis": {
+    "pk": "diagnosisid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "hospital": {
+    "pk": "hospitalid",
+    "fk": false
+  },
+  "infusiondrug": {
+    "pk": "infusiondrugid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "intakeoutput": {
+    "pk": "intakeoutputid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "lab": {
+    "pk": "labid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "medication": {
+    "pk": "medicationid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "microlab": {
+    "pk": "microlabid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "note": {
+    "pk": "noteid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "nurseassessment": {
+    "pk": "nurseassessid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "nursecare": {
+    "pk": "nursecareid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "nursecharting": {
+    "pk": "nursingchartid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "pasthistory": {
+    "pk": "pasthistoryid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "patient": {
+    "pk": "patientunitstayid",
+    "fk": false
+  },
+  "physicalexam": {
+    "pk": "physicalexamid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "respiratorycare": {
+    "pk": "respcareid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "respiratorycharting": {
+    "pk": "respchartid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+    "treatment": {
+    "pk": "treatmentid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "vitalaperiodic": {
+    "pk": "vitalaperiodicid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  },
+  "vitalperiodic": {
+    "pk": "vitalperiodicid",
+    "fk": [
+      "patientunitstayid",
+      "patient",
+      "patientunitstayid"
+    ]
+  }
+
+}
