@@ -4,3 +4,4 @@ db/csv/nurseCharting.csv
 db/csv_clean/
 src/.ipynb_checkpoints/
 db/sqlite/eicu_v2_0_1.sqlite3
+db/sqlite/eicu_v2_0_1_clean.sqlite3
