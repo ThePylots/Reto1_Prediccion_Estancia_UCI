@@ -4,4 +4,6 @@
 
 Desarrollo de un modelo predictivo para estimar la estancia de un paciente ingresado en UCI que ayudará a los usuarios de un centro de control remoto a planificar mejor los recursos de los hospitales de la región, pudiendo derivar un paciente que está en tránsito de ambulancia al hospital más cercano y con menor presión en UCI, que será estimado con dicho modelo.
 
-Los archivos principales son main.ipynb y data_cleaning.ipynb
+Los archivos principales son:
+* src/main.ipynb: Entrenamiento del modelo
+* src/data_cleaning.ipynb: Limpieza de datos
